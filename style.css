@@ -3,13 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 @font-face {
     font-family: Vanguard;
-    src: url(Demo_Fonts/Fontspring-DEMO-vanguardcf-bold.otf);
-    src: url(Demo_Fonts/Fontspring-DEMO-vanguardcf-boldoblique.otf);
-    src: url(Demo_Fonts/Fontspring-DEMO-vanguardcf-demibold.otf);
-    src: url(Demo_Fonts/Fontspring-DEMO-vanguardcf-demiboldoblique.otf);
-    src: url(Demo_Fonts/Fontspring-DEMO-vanguardcf-extrabold.otf);
-    src: url(Demo_Fonts/Fontspring-DEMO-vanguardcf-heavy.otf);
-    src: url(Demo_Fonts/Fontspring-DEMO-vanguardcf-regular.otf);
+    src: url(font/vanguard-1.ttf);
+}
+@font-face {
+    font-family: Vanguardm;
+    src: url(font/Vanguard-3.ttf);
 }
 @font-face {
     font-family: pixel;
@@ -29,17 +27,17 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
 
 body{
     background: #000000 !important;
-    min-height: 100vh;
+    min-height: 100%;
     margin: 15px;
     padding: 20px;
     border: 2px solid #00E88F;
     border-radius: 10px;
 }
 h1{
-    margin-top: 30px;
+    margin-top: 40px;
     color: #00E88F;
     font-family: Vanguard;
-    font-size: 65px;
+    font-size: 55px;
     font-weight: 900;
     text-align: left;   
     
@@ -53,7 +51,7 @@ h2{
 }
 h3{
     color: #FFF;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     font-family: 'inter', sans-serif;
     text-align: left;
@@ -68,10 +66,13 @@ h4{
 }
 p{
     color: #f1f1f1;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 300;
     font-family: 'inter', sans-serif;
     text-align: left;
+}
+li p{
+    font-size: 22px;
 }
 .row{
     padding-top: 10px;
@@ -147,23 +148,23 @@ span{
     h1{
         margin-top: 30px;
         color: #00E88F;
-        font-family: Vanguard;
+        font-family: Vanguardm;
         font-size: 30px;
-        font-weight: 900;
+        font-weight: 400;
         text-align: center;   
         
     }
     h2{
         color: #00E88F;
         font-size: 32px;
-        font-weight: bold;
-        font-family: Vanguard;
+        font-weight: 400;
+        font-family: Vanguardm;
         text-align: left;
     }
     h3{
         color: #FFF;
         font-size: 18px;
-        font-weight: 600;
+        font-weight: 700;
         font-family: 'inter', sans-serif;
         text-align: left;
     
@@ -171,8 +172,8 @@ span{
     h4{
         color: #00E88F;
         font-size: 26px;
-        font-weight: bold;
-        font-family: Vanguard;
+        font-weight: 400;
+        font-family: Vanguardm;
         text-align: center;
     }
     p{
